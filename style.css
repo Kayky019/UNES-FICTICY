@@ -1,5 +1,39 @@
+* {
+    margin: 0 auto;
+}
+
 a {
-    color: #2762d0;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+}
+
+a:hover {
+    animation: initial 2s;
+    color: black;   
+}
+
+h4 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+form {
+    color: black;
+    margin-top: 20px;
+}
+
+.enviar {
+    background: aqua;
+    color: black;
+    border-color: 2px solid blue;
+    height: 25px;
+}
+
+.enviar:hover {
+    animation: infinite 2s;
+    color: darkgray;
 }
